@@ -57,7 +57,69 @@ function App() {
         </div>
       </section>
 
-      <section></section>
+      <section>
+        <div className="delievry-section">
+        <div className="delievry-container">
+          <h3>Seamless delivery services</h3>
+          <div className="card-container">
+          <div className="card">
+          <i class='bx bxs-ship bx-tada' ></i>
+          <h4>Overseas Shipping</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <button>Learn More</button>
+          </div>
+
+          <div className="card">
+          <i class='bx bx-repost bx-tada' ></i>
+          <h4>Interstate Delievry</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <button>Learn More</button>
+          </div>
+
+          <div className="card">
+          <i class='bx bxs-notepad bx-tada' ></i>
+          <h4>Get Quick Quote</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <button>Learn More</button>
+          </div>
+
+          <div className="card">
+          <i class='bx bx-current-location bx-tada'></i>
+          <h4>Service Location</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <button>Learn More</button>
+          </div>
+          </div>
+        </div>
+        <div className="value-container">
+          <div className="val-content">
+            <div className="val">
+            <i class='bx bxs-user-plus bx-burst-hover' ></i>
+            <p>0000+</p>
+            <p>Clients</p>
+            </div>
+
+            <div className="val">
+            <i class='bx bx-current-location bx-burst-hover'></i>
+            <p>0000+</p>
+            <p>Clients</p>
+            </div>
+
+            <div className="val">
+            <i class='bx bxs-truck bx-burst-hover'></i>
+            <p>0000+</p>
+            <p>Clients</p>
+            </div>
+
+            <div className="val">
+            <i class='bx bx-package bx-burst-hover'></i>
+            <p>0000+</p>
+            <p>Clients</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
     </div>
   );
 }
