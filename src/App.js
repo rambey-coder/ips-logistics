@@ -17,9 +17,6 @@ function App() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">Track</a>
-              </li>
-              <li>
                 <a href="#">About</a>
               </li>
               <li>
@@ -46,13 +43,22 @@ function App() {
           <div className="text-section">
             <h1>A reliable logistic company for all scales of business </h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quas dolor reprehenderit quod architecto eveniet molestias, praesentium et quam nam.</p>
+            <div className="track-id">
+              <input type="text" placeholder='Tracking ID'/>
+              <button>Track</button>
+            </div>
             <button>Get Started</button> 
             <button>Learn More</button> 
           </div>
-          <div className="img-section"></div>
+          <div className="img-section">
+            <img src="/assets/hero-img.jpg" alt="logistic" />
+            <img src="/assets/map.png" alt="map" />
+          </div>
           </div>
         </div>
       </section>
+
+      <section></section>
     </div>
   );
 }
