@@ -50,7 +50,7 @@
 }
 
 .lists > ul > li a:hover {
-  color: #3D46F2;
+  color: #FA7F08;
   transition: all 0.3s ease;
 }
 
@@ -246,11 +246,11 @@
   background: #ffffff;
   border: 1px solid transparent;
   transition: all .3s ease;
-  filter: drop-shadow(1px 1px 3px rgba(168, 172, 255, 0.226));
+  filter: drop-shadow(1px 1px 3px #fac18749);
 }
 
 .card:hover {
-  border: 1px solid #1B21A6;
+  border: 1px solid #FA7F08;
 }
 
 .card > i {
@@ -260,7 +260,7 @@
 }
 
 .card > h4 {
-  color: #3D46F2;
+  color: #FA7F08;
   margin-bottom: 1rem;
 }
 
@@ -268,4 +268,33 @@
   font-weight: 400;
   line-height: 1.7;
   margin-bottom: 1rem;
+}
+
+.value-container {
+  background: #120844;
+  padding: 15px;
+  margin-top: 3rem;
+}
+
+.val-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+}
+
+.val > i {
+  color: #ebecfa;
+  font-size: 35px;
+  margin-bottom: 0.6rem;
+}
+
+.val > p:nth-child(2) {
+  color: #3D46F2;
+}
+
+.val > p:nth-child(3) {
+  color: #FA7F08;
+  font-weight: 600;
 }

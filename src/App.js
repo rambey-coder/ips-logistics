@@ -102,19 +102,19 @@ function App() {
             <div className="val">
             <i class='bx bx-current-location bx-burst-hover'></i>
             <p>0000+</p>
-            <p>Clients</p>
+            <p>Locations</p>
             </div>
 
             <div className="val">
             <i class='bx bxs-truck bx-burst-hover'></i>
             <p>0000+</p>
-            <p>Clients</p>
+            <p>Vehicle</p>
             </div>
 
             <div className="val">
             <i class='bx bx-package bx-burst-hover'></i>
             <p>0000+</p>
-            <p>Clients</p>
+            <p>Packages</p>
             </div>
           </div>
         </div>
