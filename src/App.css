@@ -12,21 +12,12 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  width: 20%;
 }
 
-.logo > h1 {
-  color: #1B21A6;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: -2px;
-}
-
-.logo > i {
-  font-size: 27px;
-  color: #3D46F2;
+.logo > img {
+  width: 100px;
+  height: 50px;
 }
 
 .lists {

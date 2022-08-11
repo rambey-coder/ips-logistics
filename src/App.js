@@ -7,8 +7,7 @@ function App() {
         <div className="nav-section">
           <div className="nav-container">
           <div className="logo">
-            <h1>IPS</h1>
-            <i className="fa-solid fa-truck-fast"></i>
+            <img src="./assets/logo-png.png" alt="logo" />
           </div>
 
           <div className="lists">
