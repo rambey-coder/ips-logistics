@@ -4,13 +4,14 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <div className="nav-container">
+        <div className="nav-section">
+          <div className="nav-container">
           <div className="logo">
-            <h1>IPS Logistics</h1>
-            <i class="fa-solid fa-truck-fast"></i>
+            <h1>IPS</h1>
+            <i className="fa-solid fa-truck-fast"></i>
           </div>
 
-          <div className="liists">
+          <div className="lists">
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -30,15 +31,28 @@ function App() {
               <li>
                 <a href="#">Branches</a>
               </li>
+
+              <button>Login</button>
+              <button>Sign UP</button>
             </ul>
           </div>
-
-          <div className="acc">
-            <button>Login</button>
-            <button>Sign UP</button>
           </div>
         </div>
       </nav>
+
+      <section>
+        <div className="hero-section">
+          <div className="hero-container">
+          <div className="text-section">
+            <h1>A reliable logistic company for all scales of business </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quas dolor reprehenderit quod architecto eveniet molestias, praesentium et quam nam.</p>
+            <button>Get Started</button> 
+            <button>Learn More</button> 
+          </div>
+          <div className="img-section"></div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

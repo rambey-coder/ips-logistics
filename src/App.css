@@ -1,0 +1,208 @@
+.app {
+  background: #edecebbd;
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo > h1 {
+  color: #1B21A6;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+.logo > i {
+  font-size: 27px;
+  color: #3D46F2;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 80%; */
+}
+
+.lists > ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lists > ul li {
+  list-style-type: none;
+}
+
+.lists > ul > li a {
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #B4B6D9;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.lists > ul > li a:hover {
+  color: #3D46F2;
+  transition: all 0.3s ease;
+}
+
+.lists > ul > button:nth-child(7) {
+  padding: 8px 10px;
+  width: 110px;
+  background: #B4B6D9;
+  color: #1B21A6;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  margin-right: 15px;
+}
+
+.lists > ul > button:nth-child(7):hover {
+  background: transparent;
+  border: 1px solid #B4B6D9;
+  color: #B4B6D9;
+}
+
+.lists > ul > button:nth-child(8) {
+  width: 110px;
+  color: #1B21A6;
+  padding: 8px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: transparent;
+  overflow: hidden;
+  border: 1px solid #1B21A6;
+}
+
+.lists > ul > button:nth-child(8):hover {
+  color: #fff;
+  border: 1px solid #B4B6D9;
+}
+
+.lists > ul > button:nth-child(8):hover:after {
+  width: 100%;
+}
+
+.lists > ul > button:nth-child(8):after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #B4B6D9;
+}
+
+.hero-container {
+  width: 85%;
+  margin: auto;
+  margin-top: 3rem;
+  /* padding-top: 5rem; */
+}
+
+.text-section {
+  width: 60%;
+}
+
+.text-section > h1 {
+  font-size: 55px;
+  width: 40vw;
+  margin-bottom: 1rem;
+}
+
+.text-section > p {
+  font-weight: 600;
+  line-height: 2;
+  color: #000;
+  width: 65%;
+  margin-bottom: 1rem;
+}
+
+.text-section > button:nth-child(3) {
+  padding: 8px 10px;
+  width: 110px;
+  background: #000;
+  color: #B4B6D9;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  margin-right: 15px;
+}
+
+.text-section > button:nth-child(3):hover {
+  background: #000;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.text-section > button:nth-child(4) {
+  width: 110px;
+  color: #1B21A6;
+  padding: 8px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: transparent;
+  overflow: hidden;
+  border: 1px solid #1B21A6;
+}
+
+.text-section > button:nth-child(4):hover {
+  color: #000;
+  border: 1px solid #B4B6D9;
+}
+
+.text-section > button:nth-child(4):hover:after {
+  width: 100%;
+}
+
+.text-section > button:nth-child(4):after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #B4B6D9;
+}
