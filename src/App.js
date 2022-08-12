@@ -120,6 +120,37 @@ function App() {
         </div>
         </div>
       </section>
+
+      <section>
+        <div className="download-section">
+          <div className="download-container">
+          <div className="word-content">
+          <h3>Deliver Cargos Easily With Our New Mobile App</h3>
+          <h6>App for local and international shipping</h6>
+          <p>Enjoy the best experience for your logistics needs from the comfort of your mobile phone. Click the links below to download now</p>
+          <div className="download">
+            <div className="apple">
+            <i class='bx bxl-apple bx-flashing' ></i>
+            <span>
+              <p>Download on the</p>
+              <p>Apple Store</p>
+            </span>
+            </div>
+            <div className="playstore">
+            <i class='bx bxl-play-store bx-flashing' ></i>
+            <span>
+              <p>Download on the</p>
+              <p>Playstore</p>
+              </span>
+            </div>
+          </div>
+          </div>
+          <div className="download-img">
+            <img src="/assets/mobile-jpg.webp" alt="mobile" />
+          </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -204,8 +204,11 @@
 
 .img-section > img:nth-child(1) {
   width: 100%;
+  height: 500px;
+  object-fit: cover;
   transform: rotate(90deg);
-  /* filter: grayscale(1); */
+  filter: grayscale(25%);
+  border-radius: 5px;
 }
 
 .img-section > img:nth-child(2) {
@@ -215,7 +218,7 @@
   left: 200px;
   right: 0;
   z-index: -1;
-  top: -4.5rem;
+  top: 9px;
   filter: grayscale(70%);
 }
 
@@ -297,4 +300,113 @@
 .val > p:nth-child(3) {
   color: #FA7F08;
   font-weight: 600;
+}
+
+.download-section {
+  margin-top: 5rem;
+  background: #FA7F08;
+  padding: 15px 0;
+}
+
+.download-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.word-content {
+  width: 60%;
+}
+
+.word-content > h3 {
+  color: #ebecfa;
+  font-size: 30px;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.word-content > h6 {
+  color: #120844;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.word-content > p {
+  font-weight: 500;
+  width: 60%;
+  line-height: 1.8;
+}
+
+.download-img {
+  width: 45%;
+}
+
+.download-img > img {
+  width: 100%;
+  border-radius: 50%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.apple {
+  background: rgb(83, 83, 83);
+  width: 50%;
+  padding: 7px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.apple > i {
+  color: #000;
+  font-size: 30px;
+}
+
+.apple > span > p:nth-child(1), .playstore > span > p:nth-child(1) {
+  color: #ebecfa;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.apple > span > p:nth-child(2), .playstore > span > p:nth-child(2) {
+  font-size: 18px;
+  color: #FA7F08;
+  font-weight: 700;
+}
+
+.playstore {
+  background: #000;
+  width: 50%;
+  padding: 7px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all .3s ease-in-out;
+}
+
+.apple:hover, .playstore:hover {
+  border: 1px solid #ebecfa;
+}
+
+.playstore > i {
+  font-size: 30px;
+  color: #ebecfa;
 }
