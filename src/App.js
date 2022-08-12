@@ -151,6 +151,113 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="activity-section">
+          <div className="activity-container">
+            <h2>
+            We take the <br />
+            <span>
+            burden of logistics off you.
+            </span>
+            </h2>
+
+            <div className="card-container">
+            <div className="card">
+            <i class="fa-solid fa-microchip"></i>
+            <h4>Latest Technology</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad, vitae unde veritatis saepe asperiores dolores minima maiores eius. Voluptas!</p>
+            </div>
+
+            <div className="card">
+            <i class="fa-solid fa-layer-group"></i>
+            <h4>Social Commerce</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad, vitae unde veritatis saepe asperiores dolores minima maiores eius. Voluptas!</p>
+            </div>
+
+            <div className="card">
+            <i class="fa-solid fa-calendar-check"></i>
+            <h4>Guaranteed Delivery</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad, vitae unde veritatis saepe asperiores dolores minima maiores eius. Voluptas!</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div className="footer-section">
+          <div className="footer-container">
+            <div className="sec-1">
+            <div className="logo">
+            <img src="./assets/logo-png.png" alt="logo" />
+          </div>
+          <p>&copy; 2022 IPS Logistics</p>
+            </div>
+
+            <div className="sec-2">
+              <div>
+                <h6>Customer Service</h6>
+                <span>
+                  <li>Customer Support</li>
+                  <li>Help Center</li>
+                </span>
+              </div>
+
+              <div>
+                <h6>Enquiry</h6>
+                <span>
+                  <li>Ship</li>
+                  <li>Get a Quote</li>
+                  <li>Track</li>
+                </span>
+              </div>
+
+              <div>
+                <h6>Service Portfolio</h6>
+                <span>
+                  <li>Domestic Logistics</li>
+                  <li>Corporate Logistics</li>
+                  <li>E-comerce Logistics</li>
+                  <li>Overseas Shiping</li>
+                </span>
+              </div>
+
+              <div>
+                <h6>Others</h6>
+                <span>
+                  <li>About</li>
+                  <li>Branch</li>
+                  <li>Schedle a Pick-up</li>
+                  <li>Report Isuess</li>
+                  <li>Terms & Conditions</li>
+                </span>
+              </div>
+            </div>
+
+            <div className="sec-3">
+              <h6>Connect with us</h6>
+              <div>
+                <a href="#">
+                <i class='bx bxl-twitter bx-tada-hover'></i>
+                </a>
+
+                <a href="#">
+                <i class='bx bxl-instagram-alt bx-tada-hover'></i>
+                </a>
+
+                <a href="#">
+                <i class='bx bxl-facebook-circle bx-tada-hover'></i>
+                </a>
+
+                <a href="#">
+                <i class='bx bxl-linkedin-square bx-tada-hover'></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
