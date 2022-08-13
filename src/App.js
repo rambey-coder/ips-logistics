@@ -24,13 +24,12 @@ function App() {
               <li>
                 <a href="#">Contact</a>
               </li>
-              <li>
-                <a href="#">Branches</a>
-              </li>
-
               <button>Login</button>
               <button>Sign UP</button>
             </ul>
+          </div>
+          <div className="icon-container">
+            <i className="fa-solid fa-bars"></i>
           </div>
           </div>
         </div>
@@ -158,7 +157,7 @@ function App() {
             <h2>
             We take the <br />
             <span>
-            burden of logistics off you.
+            burden of logistics <br /> off you.
             </span>
             </h2>
 
