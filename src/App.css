@@ -211,7 +211,7 @@
   border-radius: 5px;
 }
 
-.img-section > img:nth-child(2) {
+/* .img-section > img:nth-child(2) {
   width: 75%;
   transform: rotate(360deg);
   position: absolute;
@@ -220,7 +220,7 @@
   z-index: -1;
   top: 9px;
   filter: grayscale(70%);
-}
+} */
 
 .delievry-container, .activity-container {
   width: 85%;

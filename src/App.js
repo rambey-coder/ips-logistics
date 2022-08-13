@@ -51,7 +51,7 @@ function App() {
           </div>
           <div className="img-section">
             <img src="/assets/hero-img.jpg" alt="logistic" />
-            <img src="/assets/map.png" alt="map" />
+            {/* <img src="/assets/map.png" alt="map" /> */}
           </div>
           </div>
         </div>
