@@ -217,7 +217,7 @@
 
 .img-section > img:nth-child(1) {
   width: 100%;
-  height: 500px;
+  height: 400px;
   object-fit: cover;
   /* transform: rotate(90deg); */
   filter: grayscale(25%);
@@ -534,6 +534,7 @@
 
   .hero-section {
     height: auto;
+    margin-top: 2rem;
   }
 
   .text-section {
@@ -542,6 +543,10 @@
 
   .img-section {
     width: 100%;
+  }
+
+  .img-section > img:nth-child(1) {
+    height: auto;
   }
 
   /* .card-container {

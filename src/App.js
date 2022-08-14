@@ -45,8 +45,8 @@ function App() {
               <input type="text" placeholder='Tracking ID'/>
               <button>Track</button>
             </div>
-            <button>Get Started</button> 
-            <button>Learn More</button> 
+            {/* <button>Get Started</button> 
+            <button>Learn More</button>  */}
           </div>
           <div className="img-section">
             <img src="/assets/hero-img.jpg" alt="logistic" />
