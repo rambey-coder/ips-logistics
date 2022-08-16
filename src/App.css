@@ -578,17 +578,21 @@
 
 @media screen and (max-width: 860px) {
   .lists {
-    /* display: none; */
+    position: absolute;
+    left: -1000%;
+    width: 100%;
+    right: 0;
+    top: 5rem;
+  }
+
+  .lists.active {
+    left: 0;
   }
 
   .lists > ul {
     flex-direction: column;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    background: #FA7F08;
-    left: 0;
-    right: 0;
-    top: 5rem;
     justify-content: space-between;
     gap: 2rem;
     padding: 15px 0;

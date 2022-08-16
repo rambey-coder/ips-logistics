@@ -1,7 +1,10 @@
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 
 function App() {
+  const [click, setClick] = useState(false)
+
+  const handleClick = () => setClick(!click)
   return (
     <div className="App">
       <nav>
@@ -11,7 +14,7 @@ function App() {
             <img src="./assets/logo-png.png" alt="logo" />
           </div>
 
-          <div className="lists">
+          <div className={click ? "lists active" : "lists"}>
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -29,8 +32,8 @@ function App() {
               <button>Sign UP</button>
             </ul>
           </div>
-          <div className="icon-container">
-            <i className="fa-solid fa-bars"></i>
+          <div className="icon-container" onClick={handleClick}>
+            <i className={click ? "fa-solid fa-times" : "fa-solid fa-bars"}></i>
           </div>
           </div>
         </div>
