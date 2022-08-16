@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
             <button>Learn More</button>  */}
           </div>
           <div className="img-section">
-            <img src="/assets/hero-img.jpg" alt="logistic" />
+            <img src="/assets/logistics.gif" alt="logistic" />
             {/* <img src="/assets/map.png" alt="map" /> */}
           </div>
           </div>

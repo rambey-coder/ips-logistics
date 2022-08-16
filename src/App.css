@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   padding: 10px 0;
 }
 
@@ -577,7 +578,28 @@
 
 @media screen and (max-width: 860px) {
   .lists {
-    display: none;
+    /* display: none; */
+  }
+
+  .lists > ul {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background: #FA7F08;
+    left: 0;
+    right: 0;
+    top: 5rem;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 15px 0;
+    backdrop-filter: blur(9px) saturate(191%);
+    background-color: rgba(250, 127, 8, 0.51);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .lists > ul >button:nth-child(5) {
+    margin-right: 0;
   }
 
   .icon-container {
