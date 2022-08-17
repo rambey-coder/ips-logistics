@@ -4,12 +4,22 @@ import React, { useState } from 'react';
 function App() {
   const [click, setClick] = useState(false)
 
+  const [nav, setNav] = useState(false)
+
   const handleClick = () => setClick(!click)
+
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 60) {
+      setNav(!nav)
+    }else {
+      setNav(nav)
+    }
+  })
   return (
     <div className="App">
       <nav>
-        <div className="nav-section">
-          <div className="nav-container">
+        <div className={nav ? "nav-section active" : "nav-section"}>
+          <div className='nav-container'>
           <div className="logo">
             <img src="./assets/logo-png.png" alt="logo" />
           </div>
