@@ -10,9 +10,9 @@ function App() {
 
   window.addEventListener('scroll', () => {
     if(window.scrollY > 60) {
-      setNav(!nav)
+      setNav(true)
     }else {
-      setNav(nav)
+      setNav(false)
     }
   })
   return (
@@ -54,7 +54,10 @@ function App() {
           <div className="hero-container">
           <div className="text-section">
             <h1>A reliable logistic company for all scales of business </h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quas dolor reprehenderit quod architecto eveniet molestias, praesentium et quam nam.</p>
+            <p>Serving all your logistics needs. 
+            <br />
+            Our service commitment to you is hassle-free delivery. We are large enough to efficiently handle deliveries for large corporations yet small enough to deploy innovative delivery solutions that help small businesses.
+            </p>
             <div className="track-id">
               <input type="text" placeholder='Tracking ID'/>
               <button>Track</button>
@@ -78,28 +81,28 @@ function App() {
           <div className="card">
           <i class='bx bxs-ship bx-tada' ></i>
           <h4>Overseas Shipping</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <p>Ship from UK/US to Nigeria & Export to anywhere in the world</p>
           <button>Learn More</button>
           </div>
 
           <div className="card">
           <i class='bx bx-repost bx-tada' ></i>
           <h4>Interstate Delievry</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <p>Send & recieve packages within states.</p>
           <button>Learn More</button>
           </div>
 
           <div className="card">
           <i class='bx bxs-notepad bx-tada' ></i>
           <h4>Get Quick Quote</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <p>calculate cost estimate for your local & international shipment </p>
           <button>Learn More</button>
           </div>
 
           <div className="card">
           <i class='bx bx-current-location bx-tada'></i>
           <h4>Service Location</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+          <p>Locate IPS logistic service near you.</p>
           <button>Learn More</button>
           </div>
           </div>
@@ -179,19 +182,19 @@ function App() {
             <div className="card">
             <i class="fa-solid fa-microchip"></i>
             <h4>Latest Technology</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad, vitae unde veritatis saepe asperiores dolores minima maiores eius. Voluptas!</p>
+            <p>Technology and its application are fundamental and crucial at IPS Logistics. We understand the role of technology in providing an exceptional customer experience. For this reason, our processes, products and services are built around modern technology to help us deliver your shipments cheaper, safely and at the speed of light.</p>
             </div>
 
             <div className="card">
             <i class="fa-solid fa-layer-group"></i>
             <h4>Social Commerce</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad, vitae unde veritatis saepe asperiores dolores minima maiores eius. Voluptas!</p>
+            <p>Pivotal to successful social commerce transactions is the ability for the end-user to receive items where and when needed. With an unmatched route network spanning urban and rural communalities, IPS Logistics is the solution to efficient last-mile delivery. As a merchant, you only have to think about selling your products while IPS Logistics delivers to your customers worldwide.</p>
             </div>
 
             <div className="card">
             <i class="fa-solid fa-calendar-check"></i>
             <h4>Guaranteed Delivery</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad, vitae unde veritatis saepe asperiores dolores minima maiores eius. Voluptas!</p>
+            <p>We are conscious of the relationship between time and money and utilize our resources optimally to meet your delivery needs. Our service commitment to you is hassle-free delivery. We are large enough to efficiently handle deliveries for large corporations yet small enough to deploy innovative delivery solutions that help small businesses.</p>
             </div>
             </div>
           </div>
